@@ -54,9 +54,10 @@ The dataset consists of three JSON files:
 
 <img width="690" alt="Screenshot 2024-07-05 at 3 27 50 PM" src="https://github.com/VCLTrer/starbucks-udacity-capstone/assets/62655842/218603b2-9c94-4e91-8ac4-168c4c920ace">
 
-### Response Rate by Gender
+### Response Rate by income group
 
-![Response Rate by Gender](https://via.placeholder.com/800x400.png?text=Response+Rate+by+Gender)
+<img width="750" alt="Screenshot 2024-07-05 at 3 32 41 PM" src="https://github.com/VCLTrer/starbucks-udacity-capstone/assets/62655842/f3b53f15-020e-462d-8f2f-24b7e335ecb9">
+
 
 ## Detailed Analysis of Features
 
@@ -90,9 +91,7 @@ The dataset consists of three JSON files:
 1. **Age Outliers**: Address outliers in the `age` feature, such as implausibly high values.
 2. **Missing Values**: Handle missing values in the dataset, particularly in the `gender` feature.
 3. **Gender Representation**: Consider the imbalance in the `gender` feature.
-4. **Income Distribution**: Address wide range and potential outliers in the `income` feature.
-5. **Event Timing**: Convert `time` from hours to days for better interpretability.
-6. **Offer View vs. Completion**: Analyze the relationship between offers received, viewed, and completed.
+4. **Offer View vs. Completion**: Analyze the relationship between offers received, viewed, and completed.
 
 ## Model Development
 
@@ -138,7 +137,8 @@ Train the `RandomForestClassifier` with the best parameters identified from the 
 
 ### Confusion Matrix
 
-![Confusion Matrix](https://via.placeholder.com/800x400.png?text=Confusion+Matrix)
+<img width="542" alt="Screenshot 2024-07-05 at 1 21 39 PM" src="https://github.com/VCLTrer/starbucks-udacity-capstone/assets/62655842/e7c0b97b-4e45-428a-a6a4-db187377b906">
+
 
 ## Rationale for Metric Selection
 
