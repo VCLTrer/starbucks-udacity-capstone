@@ -78,12 +78,6 @@ The dataset consists of three JSON files:
 
 This project demonstrates how to analyze and predict customer responses to different types of offers using demographic and transaction data. By leveraging machine learning techniques and cross-validation, we can identify which demographic groups are most responsive to specific offer types, providing valuable insights for targeted marketing strategies.
 
-## Future Work
-
-- **Feature Engineering**: Explore additional features that might improve model performance.
-- **Model Optimization**: Experiment with other machine learning algorithms and hyperparameter tuning techniques.
-- **Deployment**: Develop a web application to deploy the model for real-time prediction.
-
 ## Authors
 
 - Thato Rammoko
