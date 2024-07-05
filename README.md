@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to analyze customer response data from the Starbucks rewards mobile app to determine which demographic groups respond best to different types of offers. By combining transaction, demographic, and offer data, we build and evaluate a machine learning model to predict whether a customer will respond to an offer based on their demographic information and the type of offer received.
+This project analyzes customer response data from the Starbucks rewards mobile app to determine which demographic groups respond best to different offers. By combining transaction, demographic, and offer data, we build and evaluate a machine learning model to predict whether a customer will respond to an offer based on their demographic information and the type of offer received.
 
 ## Data Description
 
@@ -18,7 +18,7 @@ The dataset consists of three JSON files:
 
 2. **profile.json**: Contains demographic data for each customer
    - `age` (int): Age of the customer
-   - `became_member_on` (int): Date when customer created an app account
+   - `became_member_on` (int): Date when the customer created an app account
    - `gender` (str): Gender of the customer (M, F, O)
    - `id` (str): Customer ID
    - `income` (float): Customer's income
@@ -26,7 +26,7 @@ The dataset consists of three JSON files:
 3. **transcript.json**: Contains records for transactions, offers received, offers viewed, and offers completed
    - `event` (str): Record description (e.g., transaction, offer received, offer viewed, offer completed)
    - `person` (str): Customer ID
-   - `time` (int): Time in hours since start of test
+   - `time` (int): Time in hours since the start of the test
    - `value` (dict): Either an offer ID or transaction amount depending on the record
 
 ## Project Structure
@@ -53,7 +53,7 @@ The dataset consists of three JSON files:
 1. **Data Splitting**: Split the data into training and testing sets.
 2. **Grid Search with Cross-Validation**: Use `GridSearchCV` to find the best hyperparameters for the `RandomForestClassifier`.
 3. **Model Training**: Train the model using the best parameters from the grid search.
-4. **Model Evaluation**: Evaluate the model's performance using metrics such as accuracy, precision, recall, F1 score, and confusion matrix.
+4. **Model Evaluation**: Evaluate the model's performance using accuracy, precision, recall, F1 score, and confusion matrix metrics.
 
 ## Results
 
@@ -86,7 +86,7 @@ This project demonstrates how to analyze and predict customer responses to diffe
 
 ## Authors
 
-- [Your Name]
+- Thato Rammoko
 
 ## Acknowledgments
 
