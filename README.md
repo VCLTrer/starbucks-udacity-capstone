@@ -50,21 +50,9 @@ The dataset consists of three JSON files:
 
 ## Exploratory Data Analysis (EDA)
 
-### Distribution of Income
-
-![Income Distribution](https://via.placeholder.com/800x400.png?text=Income+Distribution)
-
-### Distribution of Age
-
-![Age Distribution](https://via.placeholder.com/800x400.png?text=Age+Distribution)
-
-### Membership Duration
-
-![Membership Duration](https://via.placeholder.com/800x400.png?text=Membership+Duration)
-
 ### Response Rate by Offer Type
 
-![Response Rate by Offer Type](https://via.placeholder.com/800x400.png?text=Response+Rate+by+Offer+Type)
+<img width="690" alt="Screenshot 2024-07-05 at 3 27 50 PM" src="https://github.com/VCLTrer/starbucks-udacity-capstone/assets/62655842/218603b2-9c94-4e91-8ac4-168c4c920ace">
 
 ### Response Rate by Gender
 
