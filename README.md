@@ -4,7 +4,7 @@
 
 This project analyzes customer response data from the Starbucks rewards mobile app to determine which demographic groups respond best to different offers. By combining transaction, demographic, and offer data, we build and evaluate a machine learning model to predict whether a customer will respond to an offer based on their demographic information and the type of offer received.
 
-##Project Reflections
+## Project Reflections
 Visit the link below to find my reflections 
 https://medium.com/@thatorammoko/predicting-customer-responses-to-starbucks-offers-4980f6a27770
 
